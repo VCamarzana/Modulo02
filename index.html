@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reseñas</title>
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/site.css">
+
+    </head>
+    <body>
+        <div class="hotels-container">
+
+            <div class="hotels-header">
+                <h2>Reseñas de Hoteles</h2>
+            </div>
+
+            <div class="hotels-body">
+                <div class="hotel-item">
+                    <div class="hotel-name-container">
+                        <span id="hotel-name" class="hotel-name">Hotel</span>
+                        <span id="hotel-location" class="hotel-location">Ubicación</span>
+                        <img src="img/h.png" alt="Hotel" id="hotel-image" class="hotel-image"/>
+                    </div>
+                    <div class="hotel-description-container">
+                        <span id="hotel-description">Descripción</span>
+                    </div>
+                </div>
+
+                <div class="hotel-score">
+                    <div class="stars" id="stars">
+                        <span class="star" id="star01">&#9734;</span>
+                        <span class="star" id="star02">&#9734;</span>
+                        <span class="star" id="star03">&#9734;</span>
+                        <span class="star" id="star04">&#9734;</span>
+                        <span class="star" id="star05">&#9734;</span>
+                    </div>
+                    <div class="opinion">
+                        <label for="checkbox01">Reseña anónima</label>
+                        <input type="checkbox" name="checkbox01" id="checkbox"/>
+                    </div>
+                    <div class="client-opinion">
+                        <span id="client-opinion">Este hotel aún no tiene
+                            comentarios.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/app.js"></script>
+    </body>
+</html>
