@@ -1,2 +1,2 @@
 # Modulo02
-Exercises with javascript syntax:
+Exercises with javascript syntax.
