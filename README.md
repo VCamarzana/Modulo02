@@ -11,4 +11,4 @@ Data Types
 · Undefined and null
 · Objects
 Interacting with the User:
-· Alert, prompt, confirm
+· Alert, prompt, confirm.
